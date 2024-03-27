@@ -53,22 +53,22 @@ Matemáticamente, si
 
 ![](https://github.com/pedro9olivares/Topic_modeling/blob/main/Expresiones_mates/1.png)
 
-es nuestro dataset con cada registro <img src="https://render.githubusercontent.com/render/math?math=x_i\in \mathbb{R}^d "> , buscamos hacer
+es nuestro dataset con cada registro ![](https://github.com/pedro9olivares/Topic_modeling/blob/main/Expresiones_mates/2.png) , buscamos hacer
 
-<img src="https://render.githubusercontent.com/render/math?math=S = S_1\cup S_2\cup ...\cup S_k "> 
+![](https://github.com/pedro9olivares/Topic_modeling/blob/main/Expresiones_mates/3.png) 
 
-para un k determinado, en donde cada <img src="https://render.githubusercontent.com/render/math?math=S_i"> representa un clúster cuyo valor medio está dado por <img src="https://render.githubusercontent.com/render/math?math=\mu_i ">.
+para un k determinado, en donde cada ![](https://github.com/pedro9olivares/Topic_modeling/blob/main/Expresiones_mates/4.png) representa un clúster cuyo valor medio está dado por ![](https://github.com/pedro9olivares/Topic_modeling/blob/main/Expresiones_mates/5.png).
 
 ### Implementación del algoritmo
-1. Seleccionar k puntos al azar dentro de S, por ejemplo, k = 3. Estos serán nuestros primeros centros de clúster <img src="https://render.githubusercontent.com/render/math?math=\mu_i ">.
+1. Seleccionar k puntos al azar dentro de S, por ejemplo, k = 3. Estos serán nuestros primeros centros de clúster ![](https://github.com/pedro9olivares/Topic_modeling/blob/main/Expresiones_mates/5.png).
 
 ![image](https://user-images.githubusercontent.com/61219691/159411472-5ed2a8ef-5230-4a11-a52b-208a44c16e4c.png)
 
-2. Para cada <img src="https://render.githubusercontent.com/render/math?math=\x_i">, nos preguntamos a qué centro de clúster se acerca o parece más (con <img src="https://render.githubusercontent.com/render/math?math=x_i\in \mathbb{R}^2"> utilizamos la distancia euclidiana, por ejemplo).
+2. Para cada![](https://github.com/pedro9olivares/Topic_modeling/blob/main/Expresiones_mates/6.png), nos preguntamos a qué centro de clúster se acerca o parece más (con ![](https://github.com/pedro9olivares/Topic_modeling/blob/main/Expresiones_mates/7.png) utilizamos la distancia euclidiana, por ejemplo).
 
 ![image](https://user-images.githubusercontent.com/61219691/159411396-73398df7-bffa-4fb7-91d7-35f488856e3c.png)
 
-3. Como nuestra elección inicial de centros de clúster puede ser mala, calculamos un nuevo promedio de cada clúster <img src="https://render.githubusercontent.com/render/math?math=\mu_i' "> y repetimos a partir del segundo inciso, los pasos que sean necesarios, hasta obtener convergencia.
+3. Como nuestra elección inicial de centros de clúster puede ser mala, calculamos un nuevo promedio de cada clúster ![](https://github.com/pedro9olivares/Topic_modeling/blob/main/Expresiones_mates/5.png) y repetimos a partir del segundo inciso, los pasos que sean necesarios, hasta obtener convergencia.
 
 ![image](https://user-images.githubusercontent.com/61219691/159411514-7a105fb5-c781-45f1-a005-3bebdb37a730.png)
 
