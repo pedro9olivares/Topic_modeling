@@ -51,7 +51,7 @@ En nuestro caso, utilizaremos un dataset donde cada registro contiene una fecha 
 
 Matemáticamente, si 
 
-!()
+![](https://github.com/pedro9olivares/Topic_modeling/blob/main/Expresiones_mates/1.png)
 
 es nuestro dataset con cada registro <img src="https://render.githubusercontent.com/render/math?math=x_i\in \mathbb{R}^d "> , buscamos hacer
 
