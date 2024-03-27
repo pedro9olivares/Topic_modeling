@@ -10,7 +10,7 @@ Este repositorio contiene el código de un modelo generativo de lenguaje, uno de
 ## Introducción
 El modelado de temas (topic modeling) es una técnica de machine learning que se usa para descubrir qué temas o tópicos ocurren en una colección de documentos.
 
-El modelo más popular para hacer topic modeling es el de **latent Dirichlet allocation (LDA)**, el cual es un modelo estadístico *generativo* y *no supervisado*. Para entender estos dos últimos conceptos, se implementa un **modelo generativo de lenguaje** y el modelo de **k-means clustering**, respectivamente.
+El modelo más popular para hacer topic modeling es el de **Latent Dirichlet Allocation (LDA)**, el cual es un modelo estadístico *generativo* y *no supervisado*. Para entender estos dos últimos conceptos, se implementa un **modelo generativo de lenguaje** y el modelo de **k-means clustering**, respectivamente.
 
 (Cada modelo se implementa por separado: modelo generativo, k-means y LDA).
 
@@ -51,7 +51,7 @@ En nuestro caso, utilizaremos un dataset donde cada registro contiene una fecha 
 
 Matemáticamente, si 
 
-<img src="https://render.githubusercontent.com/render/math?math=S = \{ x_i \}_{i\leq N} "> 
+!()
 
 es nuestro dataset con cada registro <img src="https://render.githubusercontent.com/render/math?math=x_i\in \mathbb{R}^d "> , buscamos hacer
 
